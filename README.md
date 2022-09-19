@@ -91,7 +91,7 @@ For now, we'll focus on staging. We'll spin up and destroy our environment in a 
 </details>
 
 
-<details id=2 open>
+<details id=2>
 <summary><h2>Step 2: Set up an Azure environment</h2></summary>
 
 ### Nice work triggering a job on specific labels 
