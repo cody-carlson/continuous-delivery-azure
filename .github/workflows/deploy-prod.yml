@@ -2,10 +2,16 @@
 # .github/example-workflows/deploy-prod.yml
 name: Deploy to production
 
-# Add triggers here
+on:
+  push:
+    branches:
+      - main
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
+  ###############################################
+  ### Replace <username> with GitHub Username ###
+  ###############################################
   DOCKER_IMAGE_NAME: cody-carlson-azure-ttt
   AZURE_WEBAPP_NAME: cody-carlson-ttt-app
 
